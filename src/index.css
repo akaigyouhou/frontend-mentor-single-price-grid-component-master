@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  /* ### Primary */
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+
+  /* ### Neutral */
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  /* background-image: url("./design/mobile-design.jpg"); */
 }
+
+/* @media (min-width: 800px) {
+  body {
+    background-image: url("./design/desktop-design.jpg");
+  }
+} */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-weight: 400;
+  src: url("./fonts/Karla-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Karla";
+  font-weight: 700;
+  src: url("./fonts/Karla-Bold.ttf") format("truetype");
+}
+
+
+

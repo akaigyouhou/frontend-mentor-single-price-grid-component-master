@@ -1,0 +1,59 @@
+.asideone {
+    background-color: var(--Cyan);
+    padding-top: 1.53em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    color: white;
+}
+
+.asideone > h2 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.asideone > h3 > span:first-child {
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+
+.asideone > h3 > span:last-child {
+    padding-left: 0.75em;
+    font-size: 0.84em;
+    font-weight: 400;
+    color: var(--Light-Gray);
+}
+
+
+.asideone > h3 {
+    margin-bottom: 0.4em;
+}
+
+.asideone > p {
+    font-size: 0.98em;
+    margin-bottom: 1.9em;
+}
+
+.asideone > button {
+    padding-top: 0.95em;
+    padding-bottom: 0.9em;
+    font-size: 1.02em;
+    width: 100%;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    border-radius: 0.4em;
+    color: white;
+    font-family: "Karla";
+    box-shadow: 0 10px 10px 0 hsl(179, 67%, 37%);
+}
+
+@media (min-width: 800px) {
+    .asideone {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding-top: 2.5em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        border-bottom-left-radius: 0.5em;
+    }
+}
