@@ -2,7 +2,7 @@ import "./asidetwo.css";
 
 function AsideTwo() {
     return (
-        <div className="asidetwo">
+        <section className="asidetwo">
             <h2>Why Us</h2>
             <ul>
                 <li>Tutorials by industry experts</li>
@@ -13,7 +13,7 @@ function AsideTwo() {
                 <li>Flashcard decks</li>
                 <li>New videos every week</li>
             </ul>
-        </div>
+        </section>
     );
 }
 
