@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9ae45f93.css",
+    "main.js": "./static/js/main.bb9b4f0e.js",
+    "static/media/Karla-Bold.ttf": "./static/media/Karla-Bold.f0553c327ed82384c20f.ttf",
+    "static/media/Karla-Regular.ttf": "./static/media/Karla-Regular.6d937d4fa9dc8485f28b.ttf",
+    "index.html": "./index.html",
+    "main.9ae45f93.css.map": "./static/css/main.9ae45f93.css.map",
+    "main.bb9b4f0e.js.map": "./static/js/main.bb9b4f0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ae45f93.css",
+    "static/js/main.bb9b4f0e.js"
+  ]
+}
